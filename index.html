@@ -23,7 +23,7 @@
 
       
 
-    </section>
+   </section>
 
     
     
@@ -45,12 +45,12 @@
         longitude= distDetails.coord.lon
         
 
-        htmldata=`  <p>city name: <span id="cityname">${cname}</span></p>
+        htmldata=`  <div class="content"><p>city name: <span id="cityname">${cname}</span></p>
         <p>Temperature: <span id="temp">${temperature}</span></p>
         <p>weather type: <span id="weather">${weather}</span></p>
         <p>wind speed: <span id="wind">${wind}</span></p>
         <p>lattitude: <span id="latt">${lattitude}</span></p>
-        <p>longitude: <span id="long">${longitude}</span></p>`
+        <p>longitude: <span id="long">${longitude}</span></p></div>`
 
 
 result.innerHTML=htmldata
